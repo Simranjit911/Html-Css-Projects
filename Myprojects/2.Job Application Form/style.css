@@ -11,8 +11,10 @@ body{
 .container{
     max-width: 900px;
     margin: 0 auto;
+    margin-bottom: 40px;
 }
 .apply-box{
+    margin-bottom: 40px;
     box-sizing: border-box;
     text-align: center;
     max-width:600px;
@@ -25,4 +27,63 @@ body{
 }
 .title-small{
     font-size: 18px;
+}
+.form-container{
+    margin-top: 25px;
+    /* margin-bottom: 25px; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 20px;
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    margin-bottom: 5px;
+    font-size: 15px;
+    text-align: left;
+}
+input,select,textarea{
+    padding: 6px,10px;
+    border: 0.3px,solid #ccc;
+    /* border-radius: 2px; */
+    /* font-size: 15px; */
+}
+input:focus,textarea:focus,select:focus{
+    outline-color: rgba(255, 0, 0, 0.244);
+} 
+.button-cont{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+button{
+    background-color: rgba(255, 0, 0, 0.625);
+    color: white;
+    /* border: transparent solid 2px ; */
+    border:2px rgba(255, 0, 0, 0.84);
+    border-radius: 5px;
+    padding: 5px  10px;
+    transition: 0.4s ease-in;
+}
+button:hover{
+    background-color: white;
+    border:1px solid rgba(255, 0, 0, 0.84);
+    color: rgba(255, 0, 0, 0.625);
+    cursor: pointer;
+    transition: 0.4s ease-out;        
+    border-radius: 5px;
+}
+.textarea_control{
+    grid-column: 1/span 2;
+}
+.textarea_control textarea{
+    width: 100%;
+}
+@media (max-width:460px){
+    .textarea_control{
+        grid-column: 1/span 1;
+    }
+
 }
