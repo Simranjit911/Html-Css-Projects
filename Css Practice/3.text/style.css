@@ -1,0 +1,38 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    border: 2px solid black;
+} */
+#text{
+    color: rgb(9, 35, 35);
+    border: 2px solid red;
+    width: 500px;
+    height: 300px;
+    /* margin: 20px; */
+    text-align: center;
+    text-transform: capitalize;
+    /* text-decoration: underline; */
+    /* line-height: 30px; */
+    /* text-indent: 20px; */
+    /* letter-spacing: 10px; */
+    word-spacing: 10px;
+    /* direction: ltr; */
+    /* to take the exact same space */
+    /* white-space: pre; */
+    /* word-wrap: break-word; */
+    
+}
+.shadow{
+    font-size: 30px;
+    text-shadow: 5px 10px 6px red;
+    text-transform: uppercase;
+    border: 2px solid black;
+    text-align: center;
+    margin: 20px;
+    width: 300px;
+    /* writing-mode: vertical-rl; */
+    writing-mode: sideways-lr;
+}
