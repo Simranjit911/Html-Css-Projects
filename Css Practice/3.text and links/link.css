@@ -1,0 +1,32 @@
+/* Four states of link
+1:link-normal stated
+2:vsited
+3:hover
+4:active
+always follow this order */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.div {
+  margin: 20px;
+    text-align: center;    
+}
+a{
+    text-decoration: none;
+}
+a:link{
+    color: blueviolet;
+}
+a:visited{
+    color: rgb(14, 85, 207);
+}
+a:hover{
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+}
+a:active{
+    color: rgb(83, 128, 0);
+}
