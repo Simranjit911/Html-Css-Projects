@@ -1,34 +1,33 @@
-.div{
-    box-sizing: border-box;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.div {
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
-.cursor{
-    cursor: col-resize;
-    background-color: brown;
-    /* cursor value:
+.cursor {
+  cursor: col-resize;
+  background-color: brown;
+  /* cursor value:
     zoom-in,wait,progress,pointer */
-    border: 2px solid red;
-    align-items: center;
-    text-align: center;
-    margin: 90px 20px ;
-    box-shadow: 5px 10px 5px rgb(174, 174, 41);
-    opacity:0.9;
-    filter: contrast(50%);
-    filter: blur(0.5px);
-    filter: drop-shadow( 5px 10px 5px rgb(174, 76, 41));
-    filter: grayscale(100%);
-    
+  border: 2px solid red;
+  align-items: center;
+  text-align: center;
+  margin: 90px 20px;
+  box-shadow: 5px 10px 5px rgb(174, 174, 41);
+  opacity: 0.9;
+  filter: contrast(50%);
+  filter: blur(0.5px);
+  filter: drop-shadow(5px 10px 5px rgb(174, 76, 41));
+  filter: grayscale(100%);
 }
-.overflow{
-    margin: 50px;
-    height: 100px;
-    background-color: red;
-    /* overflow-y: scroll;
+.overflow {
+  margin: 50px;
+  height: 100px;
+  background-color: red;
+  /* overflow-y: scroll;
     overflow-x: hidden; */
-    overflow: auto;
-    /* resize: horizontal;
+  overflow: auto;
+  /* resize: horizontal;
     resize: vertical; */
-    resize: both    ;
+  resize: both;
 }
