@@ -1,2 +1,6 @@
 # Html-Css-Projects
-Top 10 Html,Css projects
+In Css Practice Folder basics of css
+In Myprojects Folder contains 10 Basic Projects
+1.Tribute Site
+2.Job Application Form
+3.Parallox Site
