@@ -1,3 +1,91 @@
-html,body{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 27px;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  color: rgb(0, 0, 0);
+}
+.ptext3{
+    position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 97px;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  color: rgb(255, 255, 255);
+
+}
+.textbg {
+    background-color: #666;
+    padding: 20px;
+    opacity: 85%;
+}
+.pimg1 {
+  background-image: url(images/image1.png);
+  min-height: 100%;
+  
+}
+.pimg2 {
+  background-image: url(images/image2.png);
+  min-height: 400px;
+}
+.pimg3 {
+  background-image: url(images/image3.png);
+  min-height: 400px;
+}
+.pimg1,
+.pimg2,
+.pimg3 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* parallax effect */
+  background-attachment: fixed;
+}
+.sec1,.sec2,.sec3{    
+    padding: 50px 80px;
+    text-align: center;
+}
+.sec1 h2,.sec2 h2.sec3 h2{
+    text-transform: uppercase;
+}
+.sec1 p,.sec2 p,.sec3 p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.sec2,.sec3{
+    background-color: #282e34;
+    color: white;
+}
+@media (max-width:480px) {
+    .ptext,.ptext3{
+        font-size: 18px;
+    }
+    .ptext3{
+       background-color: #282e34;
+      opacity: 85%;
+    }
+
     
 }
