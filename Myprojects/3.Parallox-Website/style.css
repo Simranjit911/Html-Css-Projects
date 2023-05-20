@@ -24,7 +24,7 @@ body {
   color: rgb(0, 0, 0);
 }
 .ptext3{
-    position: absolute;
+ position: absolute;
   top: 50%;
   width: 100%;
   text-align: center;
@@ -78,14 +78,13 @@ body {
     background-color: #282e34;
     color: white;
 }
-@media (max-width:480px) {
+@media (max-width:1000px) {
     .ptext,.ptext3{
-        font-size: 18px;
+        font-size: 15px;
     }
     .ptext3{
-       background-color: #282e34;
-      opacity: 85%;
+       background-color: #282e3430;
+     
     }
-
     
 }
