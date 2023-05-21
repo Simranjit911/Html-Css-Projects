@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: "Bebas Neue", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
+}
+button{
+    padding: 10px 25px;
+    border: none;
+    transition: 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+}
+button:hover{
+    transition: 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+    opacity: 0.9;
+    transform: scale(0.9);
+}
+/* NAVIGATION */
+nav{
+    box-shadow: 3px 3px 3px rgb(1,1,1,0.09);
+    position:sticky;
+    top: 0;
+    margin-bottom: 32px;
+    padding: 15px;
+    background: white;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-left: 15px;
+    margin-right: 15px; */
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;    
+}
+.barsicon{
+    font-size: 25px;
+}
+/* Hero Section */
+.hero{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.herocontent{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.herocontent h1{
+    font-size: 72px;
+    line-height: 1.2;
+    font-weight: 500;
+}
+.tag{
+    background-color: #149f39;
+    padding: 5px 10px;
+    margin: 5px;
+    color: aliceblue;
+    font-size: medium;
+    align-self: flex-start;
+}
+.explorebtn{
+    background: #ffc066; 
+    align-self: flex-start;
+    cursor: pointer;
+}
+/* 22. 09 */
