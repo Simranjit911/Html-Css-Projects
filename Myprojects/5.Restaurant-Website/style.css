@@ -72,4 +72,52 @@ nav{
     align-self: flex-start;
     cursor: pointer;
 }
-/* 22. 09 */
+/* Featurs section */
+.features{
+    margin-top: 100px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    padding: 20px;
+}
+.feature{
+    display: flex;
+    gap: 20px;
+    margin: 30px;    
+}
+.feature:hover{
+    transform: scale(1.1);
+    transition: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    box-shadow: 5px 5px 5px rgb(1,1,1,0.09);
+}
+/* divider */
+.divider{
+    margin: 20px;
+    border: 1px solid grey;
+}
+@media (max-width:900px) {
+    .hero{
+        flex-direction: column;
+    }
+    .heroimg{
+        display: flex;
+        justify-content: center;
+    }
+    .heroimg img{
+        width: 80%;
+        margin: 10px;
+    }
+    .herocontent{
+        gap: 10px;
+        padding: 10px;
+        /* font-size: 25px; */
+    }
+    .herocontent h1{
+        font-size: 32px;        
+    }
+    .features{
+        flex-direction: column;
+    }
+}
