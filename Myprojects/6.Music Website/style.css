@@ -7,9 +7,12 @@ html,
 body {
   font-family: "Bebas Neue", sans-serif;
   font-family: "Josefin Sans", sans-serif;
+  scroll-behavior: smooth;
   font-weight: 300;
   line-height: 1.4;
-  scroll-behavior: smooth;
+}
+section{
+    scroll-margin:78px;
 }
 :root {
   --purple500: #281154;
@@ -165,6 +168,7 @@ i {
     background-size: cover;
 }
 .gifts{
+    scroll-margin: 89px;
     margin: 100px 0;
     display: flex;
     gap: 50px;
