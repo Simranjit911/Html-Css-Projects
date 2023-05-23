@@ -196,9 +196,6 @@ footer{
 
 }
 
-
-
-
 @media (max-width:900px) {
     .hero{
         flex-direction: column;
