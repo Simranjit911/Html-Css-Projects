@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 1.4;
+  margin: 5rem;
+}
+a {
+  text-decoration: none;
+}
+header {
+  position: sticky;
+  background-color: #fff;
+  top: 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 20rem;
+}
+nav ul li {
+  list-style: none;
+  border-bottom: 2px solid transparent;
+}
+nav ul {
+  display: flex;
+  gap: 2rem;
+}
+nav ul li:hover {
+  border-bottom: 2px solid rgb(255, 136, 0);
+}
+/* hero sec*/
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+#hero {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center;   */
+  margin-top: 8rem;
+  /* gap: 1rem; */
+}
+.herocont {
+  display: flex;
+  flex-direction: column;
+  align-items: first baseline;
+  justify-content: center;
+  /* gap: 1rem; */
+}
+.herocont h1 {
+  font-size: 9rem;
+  line-height: 1.2;
+}
+.herocont p {
+  font-size: 2.4rem;
+  font-weight: 300;
+  color: #8b8787;
+}
+
+.heroimg img {
+  border-radius: 8rem;
+}
+/* Long Card */
+.h-card {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  margin: 8rem 1rem;
+  border: 1px solid black;
+  box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.499);
+  margin-top: 8rem;
+  padding: 2rem;
+}
+.card-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  gap: 1rem;
+}
+.card-cont h2 {
+  line-height: 1.9;
+  /* padding: 1rem; */
+}
+.card-cont p {
+  padding: 1rem;
+  font-weight: 300;
+}
+.readbtn {
+  all: unset;
+  font-weight: 600;
+}
+.status {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+/* 3 cards */
+.cardcontainer {
+  margin: 9rem 1rem;
+}
+.cardwrapper {
+  display: flex;
+  flex-direction: row;
+  /* gap: 2rem; */
+}
+.v-card {
+  margin: 0 auto;
+  box-shadow: 0px 4px 5px rgb(221, 221, 221);
+  border-radius: 2rem;
+  max-width: 320px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+}
+.v-card .card-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 2rem;
+}
+img {
+  /* width: 100%; */
+  /* height: 100%; */
+}
+.v-card img {
+  width: 100%;
+  height: 100%;
+}
+li {
+  list-style: none;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 960px) {
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+  #hero {
+    display: flex;
+    flex-direction: column;
+    /* width: 2rem; */
+    justify-content: center;
+    align-items: center;
+  }
+  .herocont {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+  }
+  .h-card{
+    display: flex;
+    flex-direction: row;
+
+  }
+  .card-cont{
+    display: flex;
+    /* flex-direction: row; */
+  }
+  .cardwrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}

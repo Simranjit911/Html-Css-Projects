@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body {
+  font-family: Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 1.4;
+}
+a {
+  text-decoration: none;
+}
+header{
+    position: sticky;
+    background-color: #fff;
+    top: 0;
+    
+}
+nav {
+  display: flex;
+  justify-content: space-around; 
+  align-items: center;
+  min-width: 1200px;  
+  margin: 0 auto;
+  margin: 1.5rem;
+  gap: 20rem;
+}
+nav ul li {
+  list-style: none;
+  border-bottom: 2px solid transparent;
+
+}
+nav ul {
+  display: flex;
+  gap: 2rem;
+}
+nav ul li:hover{
+    border-bottom: 2px solid rgb(255, 136, 0);
+  
+}
