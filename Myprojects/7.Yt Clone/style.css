@@ -103,12 +103,20 @@ main{
     background-color: rgb(240, 238, 238);
 }
 .cardcontainer{
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 5px;
+        grid-row-gap: px;
+        
+}
+.card img{
+    border-radius: 8px;
 }
 .card{
     padding: 10px;
-    max-width: 320px;
+    max-width: 409px;
     display: flex;
     flex-direction: column;
 }
